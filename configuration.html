@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>配置 | Twikoo 中文文档</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    
+    <meta name="description" content="Twikoo 中文文档">
+    <link rel="preload" href="/assets/css/0.styles.28bf7de2.css" as="style"><link rel="preload" href="/assets/js/app.13198907.js" as="script"><link rel="preload" href="/assets/js/6.7ef66964.js" as="script"><link rel="preload" href="/assets/js/2.f1004043.js" as="script"><link rel="preload" href="/assets/js/9.3fa42c4c.js" as="script"><link rel="prefetch" href="/assets/js/10.43ea60e6.js"><link rel="prefetch" href="/assets/js/11.67c205ea.js"><link rel="prefetch" href="/assets/js/3.e32b8ee8.js"><link rel="prefetch" href="/assets/js/4.91b220bb.js"><link rel="prefetch" href="/assets/js/5.2f1442d2.js"><link rel="prefetch" href="/assets/js/7.8c6a4b61.js"><link rel="prefetch" href="/assets/js/8.1e0cdc5d.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.28bf7de2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Twikoo 中文文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"> <a href="https://github.com/imaegoo/twikoo" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"> <a href="https://github.com/imaegoo/twikoo" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/" aria-current="page" class="sidebar-link">简介</a></li><li><a href="/quick-start.html" class="sidebar-link">快速上手</a></li><li><a href="/configuration.html" aria-current="page" class="active sidebar-link">配置</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/configuration.html#通用" class="sidebar-link">通用</a></li><li class="sidebar-sub-header"><a href="/configuration.html#反垃圾" class="sidebar-link">反垃圾</a></li><li class="sidebar-sub-header"><a href="/configuration.html#微信通知" class="sidebar-link">微信通知</a></li><li class="sidebar-sub-header"><a href="/configuration.html#邮件通知" class="sidebar-link">邮件通知</a></li></ul></li><li><a href="/faq.html" class="sidebar-link">常见问题</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="配置"><a href="#配置" class="header-anchor">#</a> 配置</h1> <p>Twikoo 的配置保存在数据库中，目前修改配置需进入云开发控制台，不方便之处还请谅解，后续会和评论管理一起，上线配置管理页面。</p> <div class="custom-block warning"><p class="custom-block-title">注意</p> <ul><li>配置是可选的，即使没有配置也可以使用。</li> <li>请确保 config 表的权限<strong>不是</strong>“所有用户可读”，以保证 SMTP 密码等信息不会泄露。<br>
+不过放心，默认权限是安全的，您不需要更改。</li> <li>请将配置项放在一条数据记录中。</li></ul></div> <h2 id="通用"><a href="#通用" class="header-anchor">#</a> 通用</h2> <h3 id="site-name"><a href="#site-name" class="header-anchor">#</a> SITE_NAME</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: 虹墨空间站</p> <p>博客、站点名称。</p> <h3 id="site-url"><a href="#site-url" class="header-anchor">#</a> SITE_URL</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: https://www.imaegoo.com</p> <p>博客、站点地址。</p> <h3 id="blogger-email"><a href="#blogger-email" class="header-anchor">#</a> BLOGGER_EMAIL</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: 12345@qq.com</p> <p>博主的邮箱地址，用于邮件通知、博主标识。</p> <h2 id="反垃圾"><a href="#反垃圾" class="header-anchor">#</a> 反垃圾</h2> <h3 id="akismet-key"><a href="#akismet-key" class="header-anchor">#</a> AKISMET_KEY</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: 8651783ed123</p> <p>反垃圾评论 API key。</p> <h2 id="微信通知"><a href="#微信通知" class="header-anchor">#</a> 微信通知</h2> <h3 id="sc-sendkey"><a href="#sc-sendkey" class="header-anchor">#</a> SC_SENDKEY</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: SCT1364TKdsiGjGvyAZNYDVnuHW12345</p> <p><a href="https://sc.ftqq.com/3.version" target="_blank" rel="noopener noreferrer">Server酱<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>微信推送的 <code>SCKEY</code></p> <h2 id="邮件通知"><a href="#邮件通知" class="header-anchor">#</a> 邮件通知</h2> <h3 id="sender-email"><a href="#sender-email" class="header-anchor">#</a> SENDER_EMAIL</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: blog@imaegoo.com</p> <p>邮件通知邮箱地址。</p> <h3 id="sender-name"><a href="#sender-name" class="header-anchor">#</a> SENDER_NAME</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: 虹墨空间站评论提醒</p> <p>邮件通知标题。</p> <h3 id="smtp-service"><a href="#smtp-service" class="header-anchor">#</a> SMTP_SERVICE</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: qiye.aliyun</p> <p>邮件通知邮箱服务商。<br>
+完整列表请参考：<a href="https://nodemailer.com/smtp/well-known/#supported-services" target="_blank" rel="noopener noreferrer">Supported services<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h3 id="smtp-user"><a href="#smtp-user" class="header-anchor">#</a> SMTP_USER</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: blog@imaegoo.com</p> <p>邮件通知邮箱用户名。</p> <h3 id="smtp-pass"><a href="#smtp-pass" class="header-anchor">#</a> SMTP_PASS</h3> <p>类型: <code>String</code><br>
+默认值: <code>null</code><br>
+必要性: <code>false</code><br>
+示例: password</p> <p>邮件通知邮箱密码，QQ邮箱请填写授权码。</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/imaegoo/twikoo/edit/dev/docs/configuration.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">9/27/2020, 2:57:47 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/quick-start.html" class="prev">
+        快速上手
+      </a></span> <span class="next"><a href="/faq.html">
+        常见问题
+      </a>
+      →
+    </span></p></div> <div class="page-edit"><div id="twikoo"></div> <script src="https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js"></script></div></main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.13198907.js" defer></script><script src="/assets/js/6.7ef66964.js" defer></script><script src="/assets/js/2.f1004043.js" defer></script><script src="/assets/js/9.3fa42c4c.js" defer></script>
+  </body>
+</html>
