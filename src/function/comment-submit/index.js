@@ -33,7 +33,13 @@ exports.main = async (event, context) => {
     await createCollections()
     await readConfig()
   }
-  const comment = await save(event)
+  let comment
+  try {
+    comment = await save(event)
+  } catch (e) {
+    await createCollections()
+    comment = await save(event)
+  }
   res.id = comment.id
   await sendMail(comment)
   return res
